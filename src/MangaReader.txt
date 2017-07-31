@@ -1,0 +1,14 @@
+MangaReader
+
+Screen component
+-navigation
+	-thumbnail/image
+	-title
+-picture
+	-image viewer
+	-navigation
+-details
+	-title
+	-author
+	-description
+	-genres

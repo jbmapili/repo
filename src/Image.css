@@ -1,0 +1,10 @@
+.image{
+	float: left;
+  	height: 80px;
+  	width: 50px;
+}
+
+.thumbnail {
+  	height: 50px;
+  	width: 50px;
+}
