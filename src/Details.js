@@ -16,8 +16,8 @@ class Details extends Component{
 				<div id='details'>{this.state.title}</div>
 				<div id='author'>{this.state.author}</div>
 				<div id='genres'>
-					{this.state.genres.map((genre) =>
-						<div>{genre}</div>				
+					{this.state.genres.map((genre, i) =>
+						<div key={i}>{genre}</div>				
 					)}
 				</div>
 				<div id='description'>{this.state.description}</div>

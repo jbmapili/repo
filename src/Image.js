@@ -9,12 +9,10 @@ class Image extends Component{
 			chapter: 0
 		}
 	}
-	componentDidMount(){
-	}
 	render(){
 		return(
 			<div className='image'>
-				<img src={image} className='thumbnail'></img>
+				<img src={image} className='thumbnail' alt='thumbnail'></img>
 				<br/>
 				{this.props.title}
 			</div>
