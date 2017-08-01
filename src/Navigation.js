@@ -12,7 +12,7 @@ class Navigation extends Component {
 	  	}
 	}
 	 componentDidMount() {
-	    fetch('/get-manga')
+	    fetch('/get-manga-list')
 	    .then(function(response) {
 	        return response.json()
 	    }).then(function(json){
