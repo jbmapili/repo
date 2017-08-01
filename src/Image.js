@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import './Image.css'
-import image from './sample.png'
+import React, { Component } from 'react';
+import './Image.css';
+import image from './sample.png';
+import { Button } from 'react-bootstrap';
 
 class Image extends Component{
 	constructor(props){
@@ -14,7 +15,7 @@ class Image extends Component{
 			<div className='image'>
 				<img src={image} className='thumbnail' alt='thumbnail'></img>
 				<br/>
-				{this.props.title}
+				<Button>{this.props.title}</Button>
 			</div>
 		)
 	}

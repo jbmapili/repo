@@ -3,6 +3,7 @@ import Picture from './Picture'
 import Details from './Details'
 import Image from './Image';
 
+
 class Navigation extends Component {
 	constructor(props) {
 		super(props)
@@ -12,7 +13,7 @@ class Navigation extends Component {
 	  	}
 	}
 	 componentDidMount() {
-	    fetch('/get-manga-list')
+	    fetch('/api/get-manga-list')
 	    .then(function(response) {
 	        return response.json()
 	    }).then(function(json){
